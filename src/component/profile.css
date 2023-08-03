@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFF;
+  width: 100vw;
+  padding: 70px 90px;
+}
+
+.profile-img img {
+  width: 501px;
+  height: 467px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background-color: #FFF;
+}
+
+h1 {
+  color: #002265;
+  font-family: Poppins;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.175px;
+}
+
+h3 {
+  color: #002265;
+  font-family: Poppins;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.25px;
+}
+
+.introduce-myself {
+  color: #082032;
+  font-family: Poppins;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.345px;
+}
